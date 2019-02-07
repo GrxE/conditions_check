@@ -8,11 +8,11 @@ You pass a dict with all the conditions as keys you want to be True and as value
 If any of the conditions is False, an Exception is raised with that message. 
 
 Example:
-'''
+```
 checks = {
   hasattr(cls, "supported_types")        : f"{cls} needs supported_types-set",
   hasattr(cls, "supported_types_mapping"): f"{cls} needs supported_types_mapping",
   }
 
 pre_condistions_check(checks)
-'''
+```
