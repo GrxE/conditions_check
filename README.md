@@ -7,6 +7,8 @@ To ease this pain, I wrote a small helper func to do those checks and raise an e
 You pass a dict with all the conditions as keys you want to be True and as value the error-message. 
 If any of the conditions is False, an Exception is raised with that message. 
 
+You need at least Python3.6 to use f-strings ;), works with Python 3.7
+
 Example:
 ```
 checks = {
