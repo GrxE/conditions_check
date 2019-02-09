@@ -4,7 +4,7 @@ def conditions_check(checks, exception_cls=RuntimeError):
     If not, the value=msg is raised with exception_cls
 
     :param exception_cls: Exception to raise if condition fails
-    :param checks: a dict { condition that we expect to be ok, message if not fullfilled , ... }
+    :param checks: a dict { *condition that we expect to be ok* : *message if not fullfilled* , ... }
     :return: None, raises exception_cls if contition fails
     """
 
